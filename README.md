@@ -1,27 +1,24 @@
-# PalpiteBox
+# Tabuada
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhttps%2F%2Fgithub.com%2Fggalmeida1%2Fpalpitebox%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%231A97E3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)]
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fggalmeida1%2Ftabuada&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-Este projeto permite que os clientes de um determinado Restaurante ou negócio local palpitem sobre o atendimento, produto, etc.
-
-Em troca, o cliente recebe um cupom (Desconto, condição, especial)
-
+Este projeto permite que a partir de uma lista, o usuário visualize a tabuada de 1 a 100.
 ## Início
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Pré-requisitos:
 
-Você precisa do NodeJS e do NPM instalado em sua máquina.
+Você precisa do NodeJS e do Yarn instalado em sua máquina.
 
 ```
-npm install
-npm run dev
+yarn install
+yarn start
 ```
 
 ## Layout:
 
-Criamos o layout utilizando o Figma. Você pode encontrar o arquivo [aqui](https://www.figma.com/file/HxvAYhS6l7UDI49u8uLdaC/palpite-box?node-id=0%3A1).
+Criamos o Layout utilizando um starter template do Bootstrap. Você pode encontrar o template em: https://getbootstrap.com/docs/5.0/examples/
 
 ## Colocando em produção:
 
@@ -29,11 +26,11 @@ Este projeto pode ser colocado em produção utilizando o Vercel.
 
 ## Construído com:
 
-* [NextJS](https://nextjs.org/) -The React Framework.
-* [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for
-rapidly building custom designs.
-* [Figma](https://figma.com/) - Online prototyping tool.
-* [PurgeCSS](https://purgecss.com/) - Remove unused CSS. 
+* [NodeJS](https://nodejs.org/en/) -Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [Bootstrap](https://getbootstrap.com/) - The world’s most popular front-end open source toolkit.
+* [Express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
+* [EJS](https://ejs.co/) - Embedded JavaScript templating.
+
 
 ## Author:
 
@@ -42,7 +39,7 @@ rapidly building custom designs.
 
 ## Licença
 
-Este projeto é licenciado sob a licença MIT - veja [LICENSE.md](LICENSE.md) para mais informações.
+Este projeto é licenciado sob a licença MIT.
 
 ## Acknowledgments
 
